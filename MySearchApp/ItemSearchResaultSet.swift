@@ -35,6 +35,7 @@ class FirstObject: Codable {
 }
 
 //検索結果格納クラス
+/*
 class Resault: Codable {
     var items : [ItemData] = [ItemData]()
     required init(from decoder: Decoder) throws {
@@ -45,4 +46,5 @@ class Resault: Codable {
             
         }
     }
+ */
 }
